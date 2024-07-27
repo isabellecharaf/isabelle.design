@@ -1,4 +1,9 @@
-@font-face { font-family: Bagnard; src: url('Bagnard.otf'); }
+@font-face { font-family: 'Bagnard'; 
+  src: 
+  url('Bagnard.otf'),
+  url('bagnard-webfont.woff') format('woff'), /* Modern Browsers */
+  url('bagnard-webfont.woff2')  format('truetype'), /* Safari, Android, iOS */
+}
 
 
 html, body {
@@ -15,7 +20,7 @@ body, nav {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    font-family: 'Bagnard', Fallback, sans-serif;
+    font-family: 'Bagnard', sans-serif;
     color: #111;
     text-decoration: none;
 
