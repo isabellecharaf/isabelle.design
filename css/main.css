@@ -19,7 +19,7 @@
 }
 .themed #content {
   transition-property: color;
-  transition-duration: 2;
+  transition-duration: 2s;
   transition-timing-function: ease-out;
 }
 /* default theme */
